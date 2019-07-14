@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  python:
+    build:
+      context: ./project/python
+      dockerfile: Dockerfile
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./project/python/:/python
+    ports:
+      - "8000:8000"
