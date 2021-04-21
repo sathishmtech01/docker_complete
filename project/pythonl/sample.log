@@ -1,0 +1,4 @@
+2021-04-21 12:55:38,520 | activity_log | DEBUG | debug message
+2021-04-21 12:55:38,520 | activity_log | WARNING | warn message
+2021-04-21 12:55:38,520 | activity_log | ERROR | error message
+2021-04-21 12:55:38,520 | activity_log | CRITICAL | critical message

@@ -1,0 +1,9 @@
+2021-04-21 07:39:36,022 | activity_log | DEBUG | debug message
+2021-04-21 07:39:36,023 | activity_log | WARNING | warn message
+2021-04-21 07:39:36,023 | activity_log | ERROR | error message
+2021-04-21 07:39:36,024 | activity_log | CRITICAL | critical message
+2021-04-21 07:39:39,628 | activity_log | DEBUG | debug message
+2021-04-21 07:39:39,629 | activity_log | WARNING | warn message
+2021-04-21 07:39:39,629 | activity_log | ERROR | error message
+2021-04-21 07:39:39,629 | activity_log | CRITICAL | critical message
+2021-04-21 07:39:39,924 | django.utils.autoreload | INFO | Watching for file changes with StatReloader

@@ -10,11 +10,3 @@ services:
       - ./project/python/:/python
     ports:
       - "8000:8000"
-
-  java:
-    build:
-      context: ./project/java
-      dockerfile: Dockerfile
-    volumes:
-      - ./project/java/:/usr/src/app
-    entrypoint: sh -c 'find src/ | entr mvn clean compile exec:java --batch-mode --quiet'
